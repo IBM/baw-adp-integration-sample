@@ -38,7 +38,7 @@ The following service flows are also available as a part of the toolkit that mak
 
 ## How to Use It
 
-1. Import the [ADP Utils](/artifacts/ADP_Utils.twx) Toolkit in your BAW environment.
+1. Import the [ADP Utils](/artifacts/ADP_Utils.twx) Toolkit in your BAW environment. If you are using CP4BA-23.0.X please use this [ADPRESTServices.jar](/artifacts/Version2/ADPRESTServices.jar) in Version2 Folder.
 2. Add the toolkit as a dependency to your Workflow project where you want to extract data from a document.
 3. Optionally, configure the environment variable `delay` (default of 15 seconds). This value determines how often Workflow will poll ADP to check the completion status of a document submitted for processing.
 
